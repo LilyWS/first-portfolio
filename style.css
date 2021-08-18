@@ -15,6 +15,15 @@ h1 {
     user-select: none;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: slategray;
+}
+
 header {
     position: fixed;
     z-index: 1;
@@ -28,13 +37,7 @@ header {
 }
 
 nav a {
-    text-decoration: none;
-    color: #000;
     padding: 0 .25vw;     
-}
-
-nav a:hover {
-    color: slategray;
 }
 
 main {
@@ -139,3 +142,50 @@ section p {
     font-size: 1.4em;
 }
 
+
+@media screen and (max-width: 992px) {
+    #horiseon {
+        flex-basis: 50%;
+        width: 50%;
+        height: 30vh;
+    }
+    
+    #terminal-tetris {
+        width: 50%;
+    }
+    
+    #terminal-snake {
+        width: 50%;
+        height: 30vh;
+    }
+    
+    #neural-network {
+        width: 50%;
+        height: 30vh;
+    }
+    
+  }
+
+@media screen and (max-width: 768px) {
+    #horiseon {
+        flex-basis: 100%;
+        width: 100%;
+        height: 20vh;
+    }
+    
+    #terminal-tetris {
+        width: 100%;
+        height: 20vh;
+    }
+    
+    #terminal-snake {
+        width: 100%;
+        height: 20vh;
+    }
+    
+    #neural-network {
+        width: 100%;
+        height: 20vh;
+    }
+    
+}
