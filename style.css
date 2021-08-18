@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-size: 2.2em;
+    user-select: none;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    line-height: 10vh;
+    background-color: #fff;
+    padding: 0 1vw;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;   
+}
+
+nav a:hover {
+    color: slategray;
+}
+
+main {
+    /*background-image: url("./assets/background.jpg");
+    background-size: 100% auto;*/
+    height: 100vh;
+}
+
+section {
+    text-align: center;
+    padding: 25vh 10vh;
+}
+
+section h2 {
+    font-size: 2.6em;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    text-align:left;
+}
+
+#about div{
+    max-height: 50vh;
+    width: 50%;
+}
+
+#about img {
+    height: 125%;
+    width: auto;
+    float: right;
+    margin-right: 1%;
+}
+
+#exampleWork {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#exampleWork a {
+    margin: .5vh 0;
+}
+
+#horiseon {
+    background-image: url("./assets/horiseon.PNG");
+    background-size: cover;
+    align-self: stretch;
+    flex-basis: 100%;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+
+#terminal-tetris {
+    background-image: url("./assets/terminalTetris.PNG");
+    background-size: cover;
+    align-self: stretch;
+    width: 33%;
+    height: 30vh;
+    position: relative;
+}
+
+#terminal-snake {
+    background-image: url("./assets/terminalSnake.PNG");
+    background-size: cover;
+    align-self: stretch;
+    width: 33%;
+    height: 30vh;
+    position: relative;
+}
+
+#neural-network {
+    background-image: url("./assets/neuralnetwork.PNG");
+    background-size: cover;
+    align-self: stretch;
+    width: 33%;
+    height: 30vh;
+    position: relative;
+}
+
+
+
+.description {
+    background-color: rgba(256, 256, 256, .8);
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4em;
+}
