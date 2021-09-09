@@ -112,8 +112,8 @@ section p {
     position: relative;
 }
 
-#terminal-snake {
-    background-image: url("./assets/terminalSnake.PNG");
+#poke-battle {
+    background-image: url("./assets/pokeBattle.PNG");
     background-size: cover;
     align-self: stretch;
     width: 33%;
