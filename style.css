@@ -93,8 +93,8 @@ section p {
     margin: .5vh 0;
 }
 
-#horiseon {
-    background-image: url("./assets/horiseon.PNG");
+#keyboardbattle {
+    background-image: url("./assets/keyboardbattle.PNG");
     background-size: cover;
     align-self: stretch;
     flex-basis: 100%;
